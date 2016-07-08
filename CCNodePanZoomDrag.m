@@ -3,11 +3,12 @@
 //  shortcut
 //
 //  Created by Maik Verbaan on 01-07-16.
-//  Copyright © 2016 Apportable. All rights reserved.
+//  
 //
 //  Set the contentnode to anything you like and drag, pan and zoom away...
 //  Could use some work in rubberband effect, handling more than two touches 
-//  and other paramters, but this class served its purpose for me.
+//  and other parameters, but this class served its purpose for me.
+//  Code could be a bit optimized.
 
 #import "CCNodePanZoomDrag.h"
 
