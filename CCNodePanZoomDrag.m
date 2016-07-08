@@ -6,7 +6,8 @@
 //  Copyright © 2016 Apportable. All rights reserved.
 //
 //  Set the contentnode to anything you like and drag, pan and zoom away...
-//  Could use some work in rubberband effect, handling more than two touches and other paramters, but this class served its purpose for me.
+//  Could use some work in rubberband effect, handling more than two touches 
+//  and other paramters, but this class served its purpose for me.
 
 #import "CCNodePanZoomDrag.h"
 
