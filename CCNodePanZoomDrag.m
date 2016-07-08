@@ -52,7 +52,6 @@
 {
     self = [super init];
     self.contentNode = newContentNode;
-    _touches = [[NSMutableArray alloc]init];
     return self;
 }
 
@@ -69,7 +68,7 @@
     self.userInteractionEnabled = TRUE;
     self.multipleTouchEnabled = TRUE;
     [self addChild:self.contentNode];
-    
+    _touches = [[NSMutableArray alloc]init];
     //Add sprite for anchor point
     /**
     _anchorPointSprite = [[CCSprite alloc]init];
